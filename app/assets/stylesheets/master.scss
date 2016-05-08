@@ -1,35 +1,35 @@
-.square {
-    float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
-    margin:1.66%;
-    background-color:#1E1E1E;
-    overflow:hidden;
+.square-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1.25rem 0.5rem;
 }
 
-.content {
-    position:absolute;
-    height:90%; /* = 100% - 2*5% padding */
-    width:90%; /* = 100% - 2*5% padding */
-    padding: 5%;
-    
+.square-grid__cell {
+  background-color: #fff;
+  box-shadow: 0 0 0 1px #f5f5f5;
+  overflow: hidden;
+  position: relative;
+  flex-basis: 33.333%;
 }
 
-/*  For responsive images */
-
-.content .rs{
-    width:auto;
-    height:auto;
-    max-height:90%;
-    max-width:100%;
+.square-grid__content {
+  left: 0;
+  position: absolute;
+  top: 0;
 }
-/*  For responsive images as background */
 
-.bg{
-    background-position:center center;
-    background-repeat:no-repeat;
-    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
-    color:#fff;
+.square-grid__cell:after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+
+.board {
+  background: #d81b60; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #c2185b, #ec407a); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #c2185b, #ec407a); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #c2185b, #ec407a); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #c2185b, #ec407a); /* Standard syntax */
 }
 
