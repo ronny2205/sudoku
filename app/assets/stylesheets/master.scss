@@ -7,10 +7,18 @@
 
 .square-grid__cell {
   background-color: #fff;
-  box-shadow: 0 0 0 1px #f5f5f5;
+  box-shadow: 0 0 0 1px #9e9e9e;
   overflow: hidden;
   position: relative;
   flex-basis: 33.333%;
+  clear: both;
+}
+
+.square-grid__cell:after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+  clear: both;
 }
 
 .square-grid__content {
@@ -19,7 +27,33 @@
   top: 0;
 }
 
-.square-grid__cell:after {
+.square-grid__content:before {
+  clear: both;
+}
+
+
+
+.interior-square-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.interior-square-grid__cell {
+  background-color: #fff;
+  box-shadow: 0 0 0 1px blue;
+  overflow: hidden;
+  position: relative;
+  flex-basis: 33.333%;
+}
+
+.interior-square-grid__content {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.interior-square-grid__cell:after {
   content: '';
   display: block;
   padding-bottom: 100%;
@@ -33,3 +67,49 @@
   background: linear-gradient(to bottom right, #c2185b, #ec407a); /* Standard syntax */
 }
 
+.clr {
+  clear: both;
+}
+
+
+
+input[type=sud],
+textarea.materialize-textarea {
+  background-color: transparent;
+  border: 1px solid #9e9e9e;
+  border-radius: 0;
+  outline: none;
+  flex-basis: 33.333%;
+  font-size: 1rem;
+  margin: 0 0 0 0;
+  box-shadow: none;
+  transition: all 0.3s;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  padding-bottom: 100%;
+}
+
+input[type=sud]:disabled,
+input[type=sud][readonly="readonly"],
+textarea.materialize-textarea:disabled,
+textarea.materialize-textarea[readonly="readonly"] {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+.td-cell {
+  border: 1px solid #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*padding-bottom: 100%;
+  position: relative; */
+  height: 3.333rem;
+}
+
+
+
+.sudoku-table {
+ table-layout: fixed; 
+  
+}
