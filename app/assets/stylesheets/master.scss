@@ -7,9 +7,10 @@
 }
 .flex,
 .flex>div {
-  border: solid 1px;
+  border: ridge 1px #f1f1f1;
   width: 33.33%;
   text-align: center;
+  background: #fff;
 }
 .flex > div:before {
   display: inline-block;
@@ -25,7 +26,9 @@ body {
   font-size: calc(0.5vw + 10px)
 } **/
 
-
+.row .col {  /*doesn't work*/
+  padding: 1.25rem 1.25rem;
+}
 
 
 .board {
@@ -38,7 +41,8 @@ body {
  /* width: 40%; */
   min-width:400px;
  /* margin:auto; */
-  font-size: calc(0.5vw + 10px)
+  font-size: calc(0.5vw + 10px);
+  padding: 0.5rem 1.25rem;
 }
 
 
