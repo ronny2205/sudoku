@@ -1,5 +1,5 @@
 
-/*body,*/
+
 .board,
 .flex {
   display: flex;
@@ -20,18 +20,10 @@
   content: '';
   vertical-align: middle;
 }
-/**
-body {
-  width: 40%;
-  min-width:400px;
-  margin:auto;
-  font-size: calc(0.5vw + 10px)
-} **/
 
-.row .col {  /*doesn't work*/
-  padding: 1.25rem 1.25rem;
+.row .col {
+  
 }
-
 
 .board {
   background: #d81b60; /* For browsers that do not support gradients */
@@ -44,7 +36,11 @@ body {
   min-width:400px;
  /* margin:auto; */
   font-size: calc(0.5vw + 10px);
-  padding: 0.5rem 1.25rem;
+  /*padding: 1.2rem 1.25rem;*/
+  margin: 0 -10px;
+  /* instead of using 'col s6 offset-s3' */
+ /* width: 50%;
+  margin-left: 25%; */
 }
 
 
