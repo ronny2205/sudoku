@@ -8,263 +8,263 @@ var Board = React.createClass({
     	    
     	    <div className="flex">
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
-			  </div>
-			</div>
-			<div className="flex">
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
+			    8
 			  </div>
 			</div>
 			<div className="flex">
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
-			  </div>
-			</div>
-			<div className="flex">
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
+			    8
 			  </div>
 			</div>
 			<div className="flex">
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
-			  </div>
-			</div>
-			<div className="flex">
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
+			    8
 			  </div>
 			</div>
 			<div className="flex">
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
-			  </div>
-			</div>
-			<div className="flex">
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
-			  </div>
-			  <div>
-			    sudo
+			    8
 			  </div>
 			</div>
 			<div className="flex">
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
 			  </div>
 			  <div>
-			    sudo
+			    8
+			  </div>
+			</div>
+			<div className="flex">
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			</div>
+			<div className="flex">
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			</div>
+			<div className="flex">
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			</div>
+			<div className="flex">
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
 			  </div>
 			</div>
 
