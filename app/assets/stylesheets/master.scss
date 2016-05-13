@@ -1,15 +1,13 @@
 
-
-.board,
 .flex {
   display: flex;
   flex-wrap: wrap;
+  border: solid 1px #f1f1f1;
 }
 
 .flex,
 .flex>div {
-  border: ridge 1px #f1f1f1; 
-  /*box-shadow: 0 0 0 2px #f5f5f5;*/
+  box-shadow: 1px 1px 1px 0 #f5f5f5 inset;
   width: 33.33%;
   text-align: center;
   background: #fff;
@@ -32,15 +30,14 @@
   background: -moz-linear-gradient(bottom right, #c2185b, #ec407a); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to bottom right, #c2185b, #ec407a); /* Standard syntax */
   /*box-sizing: border-box; */
- /* width: 40%; */
+  display: flex;
+  flex-wrap: wrap;
   min-width:400px;
  /* margin:auto; */
   font-size: calc(0.5vw + 10px);
   padding: 1.25rem 1.25rem;
 
-  /* instead of using 'col s6 offset-s3' */
- /* width: 50%;
-  margin-left: 25%; */
+  
 }
 
 
