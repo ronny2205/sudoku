@@ -3,21 +3,278 @@ var Board = React.createClass({
   render: function() {
     return (
     	<div className="row">
-    	  <div className="board z-depth-3 col s6 offset-s3">
-    	    <div className='square-grid'>
-			  <NineNumberBox />
-			  <NineNumberBox />
-			  <NineNumberBox />
-			  <NineNumberBox />
-			  <NineNumberBox />
-			  <NineNumberBox />
-			  <NineNumberBox />
-			  <NineNumberBox />
-			  <NineNumberBox />
+         <div className="col s10 offset-s1 m8 offset-m2 l6 offset-l3">
+    	  <div className="board z-depth-3">
+    	    
+    	    <div className="flex">
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			</div>
+			<div className="flex">
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			</div>
+			<div className="flex">
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			</div>
+			<div className="flex">
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			</div>
+			<div className="flex">
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			</div>
+			<div className="flex">
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			</div>
+			<div className="flex">
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			</div>
+			<div className="flex">
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			</div>
+			<div className="flex">
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			  <div>
+			    8
+			  </div>
+			</div>
 
-			 
-			</div>  
+
+
+
+
+
     	  </div>
+    	 </div> 
     	</div>  
     );
   }
